@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Aung Aung",
+      "address": "Thazi",
+      "phone": "666665412"
+    },
+    {
+      "id": "2",
+      "name": "Su Su",
+      "address": "Mandalay",
+      "phone": "664346745"
+    },
+    {
+      "id": "3",
+      "name": "Kyaw Kyaw",
+      "address": "Yangon",
+      "phone": "458504934"
+    },
+    {
+      "id": "4",
+      "name": "Moe Moe",
+      "address": "Yangon",
+      "phone": "134435765"
+    }
+  ]
+}

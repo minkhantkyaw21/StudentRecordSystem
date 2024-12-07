@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+body{
+    font-family: sans-serif;
+    color: #131482;
+    padding: 20px;
+    margin: 0;
+}
+.container{
+    max-width: 900px;
+    margin:0 auto ;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0  20px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #674188;
+
+}
+h2{
+    color: #674188;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+.table-container{
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+th,td{
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+th{
+    background-color: #674188;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+tr:nth-child(even){
+    background-color: #e2bfd9;
+
+}
+tr:hover{
+    background-color: #ebe9e8;
+}
+.errorMsg{
+    color: #c82333;
+   margin: 20px;
+   padding-bottom: 10px;
+    font-size: 14px;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-right: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-primary{
+    background-color: #674188;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-danger{
+    background-color: #dc3545;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-info{
+    background-color: #33bee5;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover{
+    transform: translateY(-2px);
+}
+.btn-add{
+    background-color: #533366;
+    margin-bottom: 10px;
+}
+.btn-save{
+    background-color: #533366;
+    margin-left: 15px;
+    
+}
+.btn-back{
+    background-color: #dc3545;
+}
+form{
+ 
+  background-color: #ffffff;
+  width: 100%;
+}
+label{
+    padding: 15px;
+}
+input{
+    width: 90%;
+    padding: 15px;
+    font-size: 14px;
+    color: #33bee5;
+    margin: 10px 15px;
+   border-radius: 4px;
+   border: 1px solid #0b5c72ca;
+}
+.details{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.detail-header{
+    text-align: center;
 }
